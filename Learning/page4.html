@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Tutorial</title>
+    <link rel="stylesheet" type="text/css" href="page4.css">
+</head>
+
+<body>
+    <!-- A div wrapper is often used to define the size and position of the page divs and spans shoold be used only 
+        for styling and not structural reasons -->
+    <div id="wrapper">
+        <header>
+            <img id="websitelogo" alt="Wednesday" src="Images4.png" />
+        </header>
+        <nav id="horzNav">
+            <p>
+                <a href="google.com">Google</a>
+                <a href="youtube.com">YouTube</a>
+                <a href="yahoo.com">Yahoo</a>
+                Himanshu Sharma
+            </p>
+        </nav>
+        <!-- main surrounds the main content of the document. You can only have one main -->
+        <main id="content">
+            <!-- We surround blocks of content in a document with section tags -->
+            <section>
+                <!-- Section elements shoold have a heading specific to it -->
+                <h1>Interesting</h1>
+                <!-- An article is a self contained block of content that is complete on its own with a heading and 
+                    content -->
+                <article>
+                    <h2>Body Language</h2>
+                    <p id="para-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ollamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum dolore eu fugiat nolla pariatur.
+                        <span> Excepteur sint occaecat cupidatat non </span></p>
+
+                    <p id="para-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Erat imperdiet sed euismod nisi porta lorem. Amet
+                        amet justo donec enim diam. oltrices dui sapien eget mi proin. Massa tincidunt dui ut ornare.
+                        pretium quam volputate dignissim suspendisse in est. Gravida cum sociis natoque penatibus et
+                        quam quisque id diam vel quam. Dictum at tempor commodo ollamcorper. Nunc eget lorem dolor sed
+                        viverra ipsum nunc aliquet.</p>
+
+                    <p id="para-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        ut labore et dolore magna aliqua. Eget aliquet nibh praesent tristique magna sit amet purus
+                        Lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis. Urna id volutpat lacus
+                        non curabitur gravida arcu. Ut tellus elementum sagittis vitae et leo duis ut. Ut eu sem integer
+                        vitae justo eget. Volutpat ac tincidunt vitae semper quis lectus nolla. Dui vivamus arcu felis
+                        Gravida neque convallis a cras semper auctor neque vitae. Quis risus sed volputate odio. Mauris
+                        amet massa vitae tortor condimentum lacinia quis.</p>
+
+                    <dl id="buttons">
+                        <dt class="site-button"><a href="google.com">Google</a></dt>
+                        <dt class="site-button"><a href="youtube.com">YouTube</a></dt>
+                        <dt class="site-button"><a href="yahoo.com">Yahoo</a></dt>
+                    </dl>
+                    <dl id="kids-pics">
+                        <dt><a><img src="Images5.png" width="60" height="34">
+                                <img class="hidden" src="Images5.png" width="600" height="338"></a></dt>
+                        <dt><a><img src="Images5.png" width="60" height="34">
+                                <img class="hidden" src="Images5.png" width="600" height="338"></a></dt>
+                        <dt><a><img src="Images5.png" width="60" height="34">
+                                <img class="hidden" src="Images5.png" width="600" height="338"></a></dt>
+                    </dl>
+                </article>
+            </section>
+        </main>
+        <div id="sidebar">
+            <ol id="sidebar-list-1">
+                <li>Random 1</li>
+                <li>Random 2</li>
+                <li>Random 3</li>
+            </ol>
+            <ol id="sidebar-list-2">
+                <li>Random 1</li>
+                <li>Random 2</li>
+                <li>Random 3</li>
+            </ol>
+            <h3>Favourite Movies</h3>
+            <h4>District 9</h4>
+            <h4>The Matrix</h4>
+            <h4>Minority Report</h4>
+            <h4>Lord of the Rings</h4>
+            <h4>Fargo</h4>
+        </div>
+        <div id="filler"></div>
+        <footer>
+            <!-- copyright is normally placed in a small tag -->
+            <small>copyright 2023</small>
+        </footer>
+        <!-- END OF WRAPPER -->
+    </div>
+
+</body>
+
+</html>
