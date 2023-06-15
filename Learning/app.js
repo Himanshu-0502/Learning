@@ -51,11 +51,50 @@ else{
 if(v[0]==v[7]&&v[2]==v[5]){
     console.log('Correct');
 }
+else{
+    console.log('Wrong');
+}
 if(v[0]==v[3]||v[0]==v[5]){
     console.log('Correct');
+}
+else{
+    console.log('Wrong');
 }
 let i=0;
 while(i<5){
     console.log('The number is '+i);
     i++;
+}
+let j=0;
+while(j<10){
+    console.log('The number is '+j);
+    j++;
+}
+do{
+    console.log('The number is '+i);
+    i++;
+}while(i<5);
+for(let i=0;i<5;i++){
+    console.log('The number is '+i);
+}
+for(let i=0;i<50;i++){
+    console.log(i+'.I am Sorry');
+}
+let games='football';
+switch(games){
+    case 'throwball':
+        console.log('I hate throwball');
+        break;
+    case 'baseball':
+        console.log('Baseball is hard');
+        break;
+    case 'cricket':
+        console.log('I am huge cricket fan');
+        break;
+    case 'football':
+        console.log('I love football');
+        break;
+    default:
+        console.log('I like other games');
+        break;
 }
