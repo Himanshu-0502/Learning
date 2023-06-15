@@ -1,1 +1,13 @@
-console.log('Hello World');
+console.log('Hello World!');
+let name='Himanshu';
+console.log(name);
+const age=19;
+console.log(age);
+let f=true;
+console.log(f);
+let nothing;
+console.log(nothing);
+let sex=null;
+console.log(sex);
+let a=['0','1','2'];
+console.log(a);
