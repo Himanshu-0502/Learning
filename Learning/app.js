@@ -27,7 +27,24 @@ console.log(obj.n);
 let emily={
     age1:16,
     school:'DPS',
-    class:'10th std',
     subjects:['Maths','Physics','English','Social Studies']
 }
 console.log(emily.subjects[2]);
+function hello(){
+    console.log('Hello World!')
+}
+hello();
+function multiply(a,b){
+    return a*b;
+}
+console.log(multiply(3,7));
+let v=[1,2,3,4,4,3,2,1];
+if(v[0]==v[7]){
+    console.log('True');
+}
+if(v[0]==v[1]){
+    console.log('True');
+}
+else{
+    console.log('False');
+}
