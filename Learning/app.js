@@ -48,3 +48,14 @@ if(v[0]==v[1]){
 else{
     console.log('False');
 }
+if(v[0]==v[7]&&v[2]==v[5]){
+    console.log('Correct');
+}
+if(v[0]==v[3]||v[0]==v[5]){
+    console.log('Correct');
+}
+let i=0;
+while(i<5){
+    console.log('The number is '+i);
+    i++;
+}
