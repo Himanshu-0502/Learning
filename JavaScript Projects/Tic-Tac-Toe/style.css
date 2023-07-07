@@ -1,0 +1,54 @@
+body{
+    background-color: aquamarine;
+    font-family: 'Arial', sans-serif;
+}
+main{
+    text-align: center;
+}
+.game-title{
+    width: 300px;
+    margin: 25px auto;
+    color: purple;
+    text-decoration: underline;
+}
+.game-container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 360px;
+    height: 360px;
+    margin: 30px auto;
+}
+.cell{
+    background-color: blanchedalmond;
+    color: blue;
+    width: 120px;
+    height: 120px;
+    box-shadow: 0px 0px 0px 1px black;
+    border: 1px solid black;
+    cursor: pointer;
+    line-height: 120px;
+    font-size: 75px;
+}
+.cell:hover{
+    background-color: cadetblue;
+}
+.game-status{
+    width: 300px;
+    margin: 25px auto;
+    border: 3px solid purple;
+    border-radius: 5px;
+    background-color: aqua;
+}
+.game-restart{
+    font-size: 20px;
+    color: darkgreen;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.game-restart:hover{
+    cursor: pointer;
+    background-color: violet;
+    color: white;
+}
